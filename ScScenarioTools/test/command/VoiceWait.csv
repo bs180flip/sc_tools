@@ -1,0 +1,7 @@
+name,VOICE待ち
+desc,VOICEが完了するまで待機する
+,
+1_type,Float
+1_desc,フェードまでの時間(秒)
+1_min,0
+1_optional,true

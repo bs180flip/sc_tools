@@ -1,0 +1,75 @@
+/// <summary>
+/// #SCRIPTNAME# マスター
+/// このコードは定義が増える度に自動生成される為、何か実装する場合は相談ください。
+/// </summary>
+
+using System;
+using System.Collections.Generic;
+
+namespace Sc.Common
+{
+	/// <summary>
+	/// #SCRIPTNAME# マスターの1レコード
+	/// </summary>
+	public class #SCRIPTNAME#MasterData : IMasterData
+	{
+		/// <summary>
+		/// コンストラクタ
+		/// </summary>
+		/// <param name="mst">元のマスタ</param>
+		public #SCRIPTNAME#MasterData(T#SCRIPTNAME#Mst mst)
+		{
+			TextCategoryKey = string.IsNullOrEmpty(mst.TextCategoryKey) ? "#SCRIPTNAME#MstKey" : mst.TextCategoryKey;
+			TextDefineKey = mst.TextDefineKey;
+			Name = mst.Name;
+			TextValue = mst.TextValue;
+		}
+
+		/// <summary>ID</summary>
+		public long ID { get { return 0; } }
+
+		/// <summary>カテゴリーキー</summary>
+		public string TextCategoryKey { get; private set; }
+
+		/// <summary>定義キー</summary>
+		public string TextDefineKey { get; private set; }
+
+		/// <summary>名称</summary>
+		public string Name { get; private set; }
+
+		/// <summary>文言</summary>
+		public string TextValue { get; private set; }
+	}
+
+	/// <summary>
+	/// #SCRIPTNAME# マスター
+	/// </summary>
+	public class #SCRIPTNAME#Master
+	{
+		// 各テキストの格納ディクショナリ
+#DICTIONARY#
+		/// <summary>
+		/// コンストラクタ
+		/// </summary>
+		public #SCRIPTNAME#Master()
+		{
+#CONSTRUCTOR#		}
+
+		// 各テキストのインデクサ
+#INDEXER#
+		/// <summary>
+		/// デシリアライズ処理
+		/// </summary>
+		public void Deserialize(List<T#SCRIPTNAME#Mst> list)
+		{
+			foreach (var mst in list)
+			{
+				var data = new #SCRIPTNAME#MasterData(mst);
+
+				switch (data.TextCategoryKey)
+				{
+#AFTERDESERIALIZE#				}
+			}
+		}
+	}
+}

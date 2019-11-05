@@ -1,0 +1,5 @@
+name,オブジェクト破棄
+desc,load_objectで読み込んだ定義名データをメモリから破棄する。引数を省略した場合は、load_objectで読み込んだ全てのデータを破棄。
+,
+1_type,String
+1_desc,定義名

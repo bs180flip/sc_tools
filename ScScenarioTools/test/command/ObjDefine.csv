@@ -1,0 +1,11 @@
+name,アクター定義
+desc,読み込まれたオブジェクトＧマスタの個々のアクターに定義名を割り当て、アクターコマンドで制御できるようにする。
+,
+1_type,Long
+1_desc,OBJECT_LAYOUT_GROUP_ID
+,
+2_type,Int
+2_desc,OBJECT_LOCAL_ID
+,
+3_type,String
+3_desc,定義名

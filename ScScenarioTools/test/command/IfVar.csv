@@ -1,0 +1,18 @@
+name,IF判定（変数）
+desc,変数と値（整数）を比較判定する
+,
+1_type,String,
+1_desc,変数名
+1_replacevar,false
+,
+2_type,String
+2_desc,比較演算子　=、<=、>=、>、<、
+,
+3_type,Int
+3_desc,数値
+,
+4_type,Bool
+4_desc,真偽　TRUE or FALSE
+,
+5_type,String
+5_desc,飛び先　ジャンプ先名称

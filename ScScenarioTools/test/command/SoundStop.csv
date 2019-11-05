@@ -1,0 +1,7 @@
+name,サウンド停止
+desc,BGM、SE、VOICEを止める
+,
+1_type,Float
+1_desc,フェードアウト完了までの秒数
+1_min,0.0
+1_optional,true

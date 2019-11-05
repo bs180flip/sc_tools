@@ -1,0 +1,14 @@
+name,VOICE‰¹—Ê
+desc,VOICE‚Ì‰¹—Ê’²®
+,
+1_type,String
+1_desc,ƒLƒ…[–¼
+,
+2_type,Int
+2_desc,‰¹—Ê“
+2_min,0
+,
+3_type,Float
+3_desc,•b
+3_min,0
+3_optional,true

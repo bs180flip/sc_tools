@@ -1,0 +1,6 @@
+name,マップ解放
+desc,指定マップIDのマップデータを解放
+,
+1_type,Long
+1_desc,マップID
+1_min,0

@@ -1,0 +1,6 @@
+name,マップ読み込み
+desc,指定マップIDのマップデータを読み込む
+,
+1_type,Long
+1_desc,マップID
+1_min,0

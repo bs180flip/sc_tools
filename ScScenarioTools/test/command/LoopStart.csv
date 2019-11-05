@@ -1,0 +1,9 @@
+name,ループ開始
+desc,繰り返し処理の起点。ループ処理の名前を指定する
+,
+1_type,String
+1_desc,ループ名
+1_replacevar,false
+,
+2_type,Int
+2_desc,ループ回数

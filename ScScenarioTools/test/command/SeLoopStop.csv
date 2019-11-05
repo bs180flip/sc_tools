@@ -1,0 +1,10 @@
+name,SEループ停止
+desc,SEのループ停止
+,
+1_type,String
+1_desc,キュー名
+,
+2_type,Float
+2_desc,秒数
+2_min,0.0
+2_optional,true

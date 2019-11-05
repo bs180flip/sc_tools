@@ -1,0 +1,10 @@
+name,カメラ角度設定
+desc,カメラの角度を設定する
+,
+1_type,Vector3
+1_desc,角度
+,
+2_type,Float
+2_desc,秒数
+2_min,0
+2_optional,true

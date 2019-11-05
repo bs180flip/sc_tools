@@ -1,0 +1,5 @@
+name,カメラ座標設定
+desc,カメラの座標を設定する
+,
+1_type,Vector3
+1_desc,座標

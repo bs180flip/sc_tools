@@ -1,0 +1,21 @@
+name,フラッシュ
+desc,フラッシュさせる
+,
+1_type,Float
+1_desc,1回のフラッシュにかける秒数
+,
+2_type,Color
+2_desc,塗りつぶし色
+,
+3_type,Byte
+3_desc,レイヤー (1:UIの前面、2:キャラクターの前面、3:背景の前面)
+3_min,1
+3_max,3
+,
+4_type,Byte
+4_desc,最終値 (0 ~ 100 の範囲)
+4_min,0
+4_max,100
+,
+5_type,Int
+5_desc,フラッシュの回数

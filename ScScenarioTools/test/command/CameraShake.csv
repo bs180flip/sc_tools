@@ -1,0 +1,11 @@
+name,カメラ振動
+desc,カメラを振動させる
+,
+1_type,Float
+1_desc,振動の秒数
+,
+2_type,Float
+2_desc,振動の振れ幅の大きさ 参考値0.7
+,
+3_type,Float
+3_desc,振動減少係数 参考値1

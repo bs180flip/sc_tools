@@ -1,0 +1,12 @@
+//列挙名,Unityでの型名,コメント
+None,null,無効
+Bool,bool,真偽値
+Byte,byte,8bit自然数値
+Int,int,32bit整数値
+Long,long,64bit整数値
+Float,float,実数値
+String,string,文字列
+Vector2,Vector2,2次元ベクトル
+Vector3,Vector3,3次元ベクトル
+Rect,Rect,矩形
+Color,Color,RGBカラー

@@ -1,0 +1,12 @@
+name,カメラ画角変更
+desc,カメラの画角を変更する
+,
+1_type,Float
+1_desc,画角（1-179)
+1_min,1
+1_max,179
+,
+2_type,Float
+2_desc,秒
+2_min,0
+2_optional,true

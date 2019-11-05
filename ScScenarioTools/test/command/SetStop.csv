@@ -1,0 +1,10 @@
+name,SE停止
+desc,SEを止める
+,
+1_type,String
+1_desc,キュー名
+,
+2_type,Float
+2_desc,フェードまでの時間(秒)
+2_min,0
+2_optional,true

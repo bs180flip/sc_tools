@@ -1,0 +1,13 @@
+name,カメラ首振り
+desc,カメラを移動（PAN）させる
+,
+1_type,Float
+1_desc,移動の秒数
+,
+2_type,Byte
+2_desc,移動方向 (1:上、2:下、3:左、4:右)
+2_min,1
+2_max,4
+,
+3_type,Float
+3_desc,回転角度　360度以上にも対応

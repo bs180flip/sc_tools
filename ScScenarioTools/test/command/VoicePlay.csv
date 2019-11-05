@@ -1,0 +1,16 @@
+name,VOICE再生
+desc,VOICEを鳴らす
+,
+1_type,String
+1_desc,キューシート名
+,
+2_type,String
+2_desc,キュー名
+,
+3_type,Bool
+3_desc,同キューシートのVOICEを止めるかどうか。
+,
+4_type,Float
+4_desc,フェードまでの時間(秒),
+4_min,0
+4_optional,true

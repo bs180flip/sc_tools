@@ -1,0 +1,14 @@
+name,BGM‰¹—Ê
+desc,BGM‚Ì‰¹—Ê’²®
+,
+1_type,String
+1_desc,ƒLƒ…[–¼
+,
+1_type,Int
+1_desc,‰¹—Ê“
+1_min,0
+,
+2_type,Float
+2_desc,•b
+2_min,0
+2_optional,true

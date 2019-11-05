@@ -1,0 +1,10 @@
+name,VOICE停止
+desc,VOICEを止める
+,
+1_type,String
+1_desc,キューシート名(キュー名)
+,
+2_type,Float
+2_desc,フェードまでの時間(秒)
+2_min,0
+2_optional,true

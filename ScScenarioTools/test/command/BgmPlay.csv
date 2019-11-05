@@ -1,0 +1,16 @@
+name,BGM再生
+desc,BGMを鳴らす
+,
+1_type,String
+1_desc,キューシート名(キュー名)
+,
+2_type,Bool
+2_desc,リスタートするかどうか。同じキューシート名のBGM演奏中のときリスタートする。
+,
+3_type,Bool
+3_desc,ループするかどうか。
+,
+4_type,Float
+4_desc,フェードまでの時間(秒)
+4_min,0
+4_optional,true

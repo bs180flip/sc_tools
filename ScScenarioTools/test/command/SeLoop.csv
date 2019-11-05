@@ -1,0 +1,17 @@
+name,SEループ再生
+desc,SEのループ再生
+,
+1_type,String
+1_desc,キューシート名
+,
+2_type,String
+2_desc,キュー名
+,
+3_type,Float
+3_desc,間隔
+3_min,0.0
+,
+4_type,Int
+4_desc,回数
+4_min,0
+4_optional,true

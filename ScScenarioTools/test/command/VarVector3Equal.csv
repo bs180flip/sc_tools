@@ -1,0 +1,9 @@
+name,変数（Vector3）代入
+desc,Vector3変数に代入する（入れ替える）
+,
+1_type,String
+1_desc,変数名
+1_replacevar,false
+,
+2_type,Vector3
+2_desc,Vector3

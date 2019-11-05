@@ -1,0 +1,5 @@
+name,話者表示
+desc,話者を表示する
+,
+1_type,String
+1_desc,話者の名前

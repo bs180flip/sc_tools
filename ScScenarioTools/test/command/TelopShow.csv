@@ -1,0 +1,31 @@
+name,テロップ表示
+desc,テロップを表示する
+,
+1_type,String
+1_desc,テロップテキスト
+,
+2_type,Byte
+2_desc,表示方法 (1:即時、2:フェードイン、3:タイピング)
+2_min,1
+2_max,3
+,
+3_type,Float
+3_desc,2:フェードインは1行あたりの間隔設定（参考値0.8）。3:タイピング 1文字あたりの間隔設定（参考値0.08）。1:即時の場合は0を設定
+,
+4_type,String
+4_desc,テロップ名　テロップ消去と対になります。
+,
+5_type,Vector2
+5_desc,表示座標
+,
+6_type,Byte
+6_desc,boxのアンカー(0:左上、1:中央上、2:右上)
+6_min,0
+6_max,2
+6_optional,true
+,
+7_type,Byte
+7_desc,box配下の行 寄せ(0:左寄せ、1:中央寄せ、2:右寄せ)
+7_min,0
+7_max,2
+7_optional,true

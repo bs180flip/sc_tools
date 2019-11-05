@@ -1,0 +1,6 @@
+name,ループ終了
+desc,繰り返し処理の終点。ループ開始と対になる名前を指定する
+,
+1_type,String
+1_desc,ループ名
+1_replacevar,false

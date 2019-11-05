@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ConfigData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <env_type>DEV</env_type>
+  <extensions>
+    <string>png</string>
+    <string>jpg</string>
+    <string>csv</string>
+    <string>bmb</string>
+    <string>usm</string>
+    <string>m3r</string>
+    <string>ssbp</string>
+    <string>vfxb</string>
+    <string>json</string>
+    <string>atlas</string>
+	<string>acb</string>
+  </extensions>
+  <encrypyVer>1</encrypyVer>
+</ConfigData>

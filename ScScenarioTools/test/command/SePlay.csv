@@ -1,0 +1,13 @@
+name,SE再生
+desc,SEを鳴らす
+,
+1_type,String
+1_desc,キューシート名
+,
+2_type,String
+2_desc,キュー名
+,
+3_type,Float
+3_desc,フェードまでの時間(秒)
+3_min,0
+3_optional,true

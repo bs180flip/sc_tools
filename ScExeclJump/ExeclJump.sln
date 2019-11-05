@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExeclJump", "ExeclJump\ExeclJump.csproj", "{30D5ABA0-667C-4A5C-972D-1E79C9AF8D77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30D5ABA0-667C-4A5C-972D-1E79C9AF8D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D5ABA0-667C-4A5C-972D-1E79C9AF8D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D5ABA0-667C-4A5C-972D-1E79C9AF8D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D5ABA0-667C-4A5C-972D-1E79C9AF8D77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64F7E296-7DB8-4DB9-B143-135BC7784F47}
+	EndGlobalSection
+EndGlobal
